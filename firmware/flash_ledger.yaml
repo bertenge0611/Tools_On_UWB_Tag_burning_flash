@@ -1,0 +1,491 @@
+_comment: flash.py 원장. 키는 케이스 SERIAL 이다 — beacon:N 으로 적으면 같은 번호를 다른 보드에 굽는 순간 옛 보드가
+  지워진다. SSOT 는 UICR. 실물과 다르면 기기가 맞다.
+by_serial:
+  '596537':
+    at: '2026-08-19 16:48:23'
+    board: k4w
+    bootloader: ours
+    domain: portSAGE
+    hex: beacon2_k4w.hex
+    id: 2
+    mac: BC:57:29:19:1F:8D
+    role: beacon
+    serial: 596537
+    src: device
+  '596547':
+    at: '2026-08-19 17:52:28'
+    board: k4w
+    bootloader: ours
+    domain: portSAGE
+    hex: beacon1_k4w.hex
+    id: 1
+    mac: BC:57:29:19:1F:97
+    role: beacon
+    serial: 596547
+    src: device
+  '596574':
+    at: '2026-08-19 17:40:14'
+    board: k4w
+    bootloader: ours
+    domain: portSAGE
+    hex: beacon4_k4w.hex
+    id: 4
+    mac: BC:57:29:19:1F:B2
+    role: beacon
+    serial: 596574
+    src: device
+  '647130':
+    at: '2026-09-06 18:45:25'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:1D:0B:58
+    role: tag
+    serial: 647130
+    src: device
+  '647136':
+    at: '2026-09-06 18:18:12'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:1D:0B:5E
+    role: tag
+    serial: 647136
+    src: device
+  '707881':
+    at: '2026-10-06 16:52:25'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:40:CF
+    role: tag
+    serial: 707881
+    src: device
+  '707883':
+    at: '2026-10-06 16:22:55'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:40:D1
+    role: tag
+    serial: 707883
+    src: device
+  '707892':
+    at: '2026-10-06 17:35:37'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:40:DA
+    role: tag
+    serial: 707892
+    src: device
+  '707894':
+    at: '2026-09-06 18:31:00'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:40:DC
+    role: tag
+    serial: 707894
+    src: device
+  '707898':
+    at: '2026-09-06 18:23:29'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:40:E0
+    role: tag
+    serial: 707898
+    src: device
+  '707904':
+    at: '2026-09-06 18:21:50'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:40:E6
+    role: tag
+    serial: 707904
+    src: device
+  '707909':
+    at: '2026-10-06 17:11:15'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:40:EB
+    role: tag
+    serial: 707909
+    src: device
+  '707916':
+    at: '2026-09-06 18:16:42'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:40:F2
+    role: tag
+    serial: 707916
+    src: device
+  '707917':
+    at: '2026-10-06 16:31:23'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:40:F3
+    role: tag
+    serial: 707917
+    src: device
+  '707919':
+    at: '2026-09-06 18:43:43'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:40:F5
+    role: tag
+    serial: 707919
+    src: device
+  '708203':
+    at: '2026-10-06 17:50:11'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:11
+    role: tag
+    serial: 708203
+    src: device
+  '708205':
+    at: '2026-10-06 17:42:51'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:13
+    role: tag
+    serial: 708205
+    src: device
+  '708207':
+    at: '2026-10-06 17:31:48'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:15
+    role: tag
+    serial: 708207
+    src: device
+  '708209':
+    at: '2026-09-06 18:14:18'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:42:17
+    role: tag
+    serial: 708209
+    src: device
+  '708213':
+    at: '2026-10-06 17:14:30'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:1B
+    role: tag
+    serial: 708213
+    src: device
+  '708214':
+    at: '2026-10-06 16:42:26'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:1C
+    role: tag
+    serial: 708214
+    src: device
+  '708220':
+    at: '2026-09-06 18:12:31'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:42:22
+    role: tag
+    serial: 708220
+    src: device
+  '708221':
+    at: '2026-10-06 17:18:27'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:23
+    role: tag
+    serial: 708221
+    src: device
+  '708229':
+    at: '2026-10-06 17:24:30'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:2B
+    role: tag
+    serial: 708229
+    src: device
+  '708231':
+    at: '2026-10-06 17:46:28'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:2D
+    role: tag
+    serial: 708231
+    src: device
+  '708232':
+    at: '2026-10-06 17:54:13'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:2E
+    role: tag
+    serial: 708232
+    src: device
+  '708234':
+    at: '2026-10-06 17:39:14'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:30
+    role: tag
+    serial: 708234
+    src: device
+  '708245':
+    at: '2026-10-06 16:57:35'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:3B
+    role: tag
+    serial: 708245
+    src: device
+  '708247':
+    at: '2026-10-06 17:06:30'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:3D
+    role: tag
+    serial: 708247
+    src: device
+  '708249':
+    at: '2026-09-06 18:48:56'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:42:3F
+    role: tag
+    serial: 708249
+    src: device
+  '708250':
+    at: '2026-10-06 17:28:23'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:40
+    role: tag
+    serial: 708250
+    src: device
+  '708251':
+    at: '2026-10-06 16:35:37'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:41
+    role: tag
+    serial: 708251
+    src: device
+  '708252':
+    at: '2026-10-06 17:02:14'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag.hex
+    id: null
+    mac: BC:57:29:22:42:42
+    role: tag
+    serial: 708252
+    src: device
+  '708256':
+    at: '2026-09-06 18:04:57'
+    beacon_id: 0
+    board: c3w
+    bootloader: sdk-fallback
+    domain: allcargo
+    hex: tag_field.hex
+    id: null
+    mac: BC:57:29:22:42:46
+    role: tag
+    serial: 708256
+    src: device
+  '773645':
+    at: '2026-09-06 14:07:05'
+    beacon_id: 2
+    board: k4w
+    bootloader: ours
+    domain: allcargo
+    hex: beacon1_k4w.hex
+    id: 2
+    mac: BC:57:29:26:70:75
+    role: beacon
+    serial: 773645
+    src: device
+  '773673':
+    at: '2026-09-06 14:05:42'
+    beacon_id: 1
+    board: k4w
+    bootloader: ours
+    domain: allcargo
+    hex: beacon1_k4w.hex
+    id: 1
+    mac: BC:57:29:26:70:91
+    role: beacon
+    serial: 773673
+    src: device
+  '773679':
+    at: '2026-09-12 15:38:41'
+    beacon_id: 5
+    board: k4w
+    bootloader: ours
+    domain: allcargo
+    hex: beacon5_k4w_sim.hex
+    id: 5
+    mac: BC:57:29:26:70:97
+    role: beacon
+    serial: 773679
+    src: device
+  '773683':
+    at: '2026-09-06 14:25:00'
+    beacon_id: 3
+    board: k4w
+    bootloader: ours
+    domain: allcargo
+    hex: beacon1_k4w.hex
+    id: 3
+    mac: BC:57:29:26:70:9B
+    role: beacon
+    serial: 773683
+    src: device
+  '773686':
+    at: '2026-09-10 11:28:55'
+    beacon_id: 5
+    board: k4w
+    bootloader: ours
+    domain: portSAGE
+    hex: beacon1_k4w.hex
+    id: 5
+    mac: BC:57:29:26:70:9E
+    role: beacon
+    serial: 773686
+    src: device
+  '773694':
+    at: '2026-09-06 14:26:30'
+    beacon_id: 4
+    board: k4w
+    bootloader: ours
+    domain: allcargo
+    hex: beacon1_k4w.hex
+    id: 4
+    mac: BC:57:29:26:70:A6
+    role: beacon
+    serial: 773694
+    src: device
+  '773761':
+    at: '2026-08-19 17:42:29'
+    board: k4w
+    bootloader: ours
+    domain: portSAGE
+    hex: beacon3_k4w.hex
+    id: 3
+    mac: BC:57:29:26:70:E9
+    role: beacon
+    serial: 773761
+    src: device
